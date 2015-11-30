@@ -6,6 +6,8 @@ gem 'devise'
 gem 'simple_form'
 # rails console
 gem 'pry-rails'
+# Active Admin
+gem 'activeadmin', github: 'activeadmin'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
