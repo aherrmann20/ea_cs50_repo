@@ -1,0 +1,7 @@
+<ul>
+	<% @events.each do |event| %>
+	<h2>
+		<strong><%= link_to event.question, event_path(event) %></strong>
+	</h2>
+	<% end %>
+</ul>

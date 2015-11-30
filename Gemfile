@@ -8,6 +8,7 @@ gem 'simple_form'
 gem 'pry-rails'
 # Active Admin
 gem 'activeadmin', github: 'activeadmin'
+# Included per instructions of ActiveAdmin documentation
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
