@@ -4,10 +4,6 @@ source 'https://rubygems.org'
 gem 'devise'
 # Make simple form
 gem 'simple_form'
-# Twitter-Bootstrap Gems
-gem 'twitter-bootstrap-rails'
-gem 'bootstrap-sass', '~> 3.2.0'
-gem 'autoprefixer-rails'
 # rails console
 gem 'pry-rails'
 
