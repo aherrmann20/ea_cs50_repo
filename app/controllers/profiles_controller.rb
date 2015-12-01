@@ -18,6 +18,10 @@ class ProfilesController < ApplicationController
 		@profile = Profile.find params[:id]
 	end
 
+	def edit
+		@profile = Profile.find(params[:id])
+	end
+
 	def update
 		@profile = Profile.find(params[:id])
 		if @profile.update(profile_params)
@@ -36,7 +40,7 @@ class ProfilesController < ApplicationController
 
 	private
 	def profile_params
-		params.require(:profile).permit(:name, :surname, :user_id)
+		params.require(:profile).permit(:name, :surname, :age, :user_id)
 	end
 
 end
